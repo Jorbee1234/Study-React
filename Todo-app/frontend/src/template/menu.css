@@ -1,0 +1,49 @@
+.custom-navbar {
+    background-color: #222;
+    color: white;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.custom-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.custom-navbar-header {
+    font-size: 1.3em;
+}
+
+.custom-navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-navbar-brand i {
+    margin-right: 8px;
+}
+
+.custom-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.custom-nav li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.custom-nav li a:hover {
+    color: #ddd;
+}
